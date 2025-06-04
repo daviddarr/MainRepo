@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Analyzer",
+  "version": "1.0",
+  "description": "Highlight and capture selected LinkedIn jobs text.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
